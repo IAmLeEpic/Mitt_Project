@@ -3,27 +3,47 @@ body {
 	background-image: url("bg.png")
 }
 
-.paragraf1 {
-	color: black;
-}
-
-.paragraf2 {
-	color: navy;
-}
-
 .snyggruta {
+	background-color: white;
 	width: 450px;
 	margin: auto;
 	border: 1px solid black;
 }
 
 .snyggruta2 {
-	width: 450px;
-	margin: auto;
+	position: relative;
+	left: 30px;
+	background-color: white;
+	width: 400px;
 	margin-top: 100px;
-	border: 1px dotted black;
+	border: 1px solid black;
+	float: left;
 }
 
-#p1h {
-	color: yellow;
+.snyggruta3 {
+	position: relative;
+	left: 30px;
+	top: 200px;
+	background-color: white;
+	width: 400px;
+	border: 1px solid black;
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+.snyggruta4 {
+	position: relative;
+	left: 30px;
+	top: 200px;
+	background-color: white;
+	width: 400px;
+	border: 1px solid black;
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+#t {
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-weight: normal;
 }
